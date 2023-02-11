@@ -11,6 +11,7 @@
 		E133563B2997489A00CA0288 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133563A2997489A00CA0288 /* ContentView.swift */; };
 		E133563D2997489C00CA0288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E133563C2997489C00CA0288 /* Assets.xcassets */; };
 		E13356402997489C00CA0288 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E133563F2997489C00CA0288 /* Preview Assets.xcassets */; };
+		E133564729974DDA00CA0288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133564629974DDA00CA0288 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,9 @@
 		E133563A2997489A00CA0288 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E133563C2997489C00CA0288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E133563F2997489C00CA0288 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E133564629974DDA00CA0288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E133564829974F1000CA0288 /* EarthquakeApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EarthquakeApp.entitlements; sourceTree = "<group>"; };
+		E133564929974F1700CA0288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,10 @@
 		E13356372997489A00CA0288 /* EarthquakeApp */ = {
 			isa = PBXGroup;
 			children = (
+				E133564929974F1700CA0288 /* Info.plist */,
+				E133564829974F1000CA0288 /* EarthquakeApp.entitlements */,
 				E13356382997489A00CA0288 /* EarthquakeAppApp.swift */,
+				E133564629974DDA00CA0288 /* AppDelegate.swift */,
 				E133563A2997489A00CA0288 /* ContentView.swift */,
 				E133563C2997489C00CA0288 /* Assets.xcassets */,
 				E133563E2997489C00CA0288 /* Preview Content */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E133564729974DDA00CA0288 /* AppDelegate.swift in Sources */,
 				E133563B2997489A00CA0288 /* ContentView.swift in Sources */,
 				E13356392997489A00CA0288 /* EarthquakeAppApp.swift in Sources */,
 			);
@@ -264,12 +272,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EarthquakeApp/EarthquakeApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EarthquakeApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NG3C5HP77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EarthquakeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -293,12 +303,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EarthquakeApp/EarthquakeApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EarthquakeApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NG3C5HP77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EarthquakeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

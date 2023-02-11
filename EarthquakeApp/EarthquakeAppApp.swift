@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct EarthquakeAppApp: App {
+    @UIApplicationDelegateAdaptor var appDelegate: AppDelegate
     var body: some Scene {
         WindowGroup {
             ContentView()
